@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@300;400&display=swap');
+:root{
+    --violet: hsl(257, 40%, 49%);
+    --softMagenta: hsl(300, 69%, 71%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-color: var(--violet);
+    background-image: url(../images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+}
+
+.main{
+    width: 595px;
+    height: 1448px;
+    margin: 75px auto 40px;
+}
+
+h1{border: 1px solid white}
+.redes_sociales{border: 1px solid white}
+.redes{border: 1px solid white}
+
+/* seccion uno */
+#seccion1{
+    height: 724px;
+}
+#logo-container{
+    width: 180px;
+}
+#mockup{
+    width: 500px;
+}
+
+/* seccion dos */
+#seccion2{
+    height: 724px;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    height: 190px;
+    border: none;
+}
+#seccion2 p{
+    font-size: 35px;
+    text-align: center;
+    height:300px;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn-register a{
+    width: 190px;
+    height: 70px;
+    border-radius: 35px;
+    font-size: 25px;
+    color: var(--violet);
+    background-color: white;
+    display: inline-block;
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-register a:hover{
+    background-color: var(--softMagenta);
+    color: white;
+    text-align: center;
+}
+
+.redes_sociales{
+    text-align: center;
+    margin-bottom: 122px;
+    border: none;
+
+}
+
+.redes{
+    width: 208px;
+    display: inline-flex;
+    justify-content: space-between;
+    border: none;
+}
+.redes a{
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    font-size: 28px;
+    padding-top: 12px;
+}
+.redes a:hover{
+    border-color: var(--softMagenta);
+    color: var(--softMagenta);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: white; }
+
+@media only screen and (min-width: 1284px){
+    body{
+        background-image: url(../images/bg-desktop.svg);
+        background-size: unset;
+    }
+    main{
+        margin: 60px auto 0px;
+        width: 1284px;
+        height: 700px;
+        display: flex;
+    }
+/* seccion1 */
+#seccion    {
+    width: 753px;
+    height: 700px;
+}
+#logo-container{
+    height: 134px;
+}
+#mockup{
+    width: 590px;
+}
+/* seccion2 */
+#seccion2{
+    height: 700px;
+}
+h1{
+    margin-top: 165px;
+    height: 140px;
+    font-size: 44px;
+    text-align: left;
+    padding-right: 93px;
+    padding: auto;
+}
+
+#seccion2 p{
+    height: 120px;
+    font-size: 20px;
+    text-align: left;
+    padding-right:17px ;
+}
+.btn-register{
+    text-align: left;
+    margin-bottom: 179px;
+}
+.btn-register a{
+    width: 200px;
+    height: 58px;
+    font-size: 20px;
+    padding-top: 15px;
+    text-align: center;
+}
+.redes_sociales{
+    text-align: right;
+}
+.redes{
+    width: 156px;
+}
+.redes a{
+    width: 44px;
+    height: 44px;
+    font-size: 22px;
+    padding:8px;
+    text-align: center;
+}
+}
